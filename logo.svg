@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 150" width="100%" height="100%">
+  <!-- Stylized Elegant 'A' Ribbon Brandmark -->
+  <g fill="#ffffff">
+    <!-- Right solid stem -->
+    <path d="M 68 15 L 102 105 L 85 105 L 56 30 Z" />
+    <!-- Left ribbon curve -->
+    <path d="M 56 30 L 73 70 C 65 72 50 78 40 92 L 30 105 L 50 102 C 65 98 73 90 78 82 L 68 55 Z" opacity="0.9" />
+  </g>
+
+  <!-- Text 'lef' to complete 'Alef' -->
+  <text x="112" y="103" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="82" fill="#ffffff" letter-spacing="-1">lef</text>
+
+  <!-- Text 'DIGITAL SOLUTIONS' underneath -->
+  <text x="28" y="138" font-family="'Outfit', 'Inter', sans-serif" font-weight="700" font-size="15" fill="#ffffff" letter-spacing="3.8" opacity="0.9">DIGITAL SOLUTIONS</text>
+</svg>
