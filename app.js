@@ -104,7 +104,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('http://localhost:8000/api/public/recruitment/apply', {
+            // Pointing to the production backend on Railway
+            const API_BASE_URL = 'https://back-production-ace5.up.railway.app';
+            const response = await fetch(`${API_BASE_URL}/api/public/recruitment/apply`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
